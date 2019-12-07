@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <style>
+        #reset
+        {
+            margin-left:5px;
+        }
+        #submit
+        {
+            margin-left: 10px;
+        }
+        </style>
+</head>
+<body>
+            <!--    Navbar Starts-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="index.html" class="navbar-brand">Edureka!</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="ourstory.html">Our Story</a>
+                    <a class="nav-item nav-link" href="courses.html">Courses</a>
+                    <a class="nav-item nav-link" href="signup.html">SignUp</a>
+                    <a class="nav-item nav-link" href="FAQ.html">FAQ's</a>
+                    <a class="nav-item nav-link" href="contact.html">Contacts</a>
+                </div>
+                </div>
+            </nav>
+            
+            <!-- Navbar Ends -->
+           <br><br>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6">
+                      <h2>Not yet registered ?</h2>
+                      <hr>
+                      <h3>Signup</h3>
+                      <hr>
+                      <form action="">
+                         <div class="form-group row">
+                             <label for="email" class="col-md-2 col-form-label">Name</label>
+                             <div class="col-md-8">
+                                <input type="text" class="form-control" id="email" placeholder="Enter name...">
+                             </div>
+                         </div>
+                         <div class="form-group row">
+                             <label for="email" class="col-md-2 col-form-label">Email</label>
+                             <div class="col-md-8">
+                                 <input type="email" class="form-control" id="email" placeholder="Enter email...">
+                             </div>
+                         </div>
+                         <div class="form-group row">
+                             <label for="password" class="col-md-2 col-form-label">Password</label>
+                             <div class="col-md-8">
+                                 <input type="password" id="password" class="form-control" id="password" placeholder="Enter password here..."> 
+                             </div>
+                         </div>
+                         <div class="form-group row">
+                             <label for="confirm" class="col-md-2 col-form-label">Confirm</label>
+                             <div class="col-md-8">
+                                <input type="password" id="password" class="form-control" id="password" placeholder="Enter confirm password here..."> 
+                            </div>
+                         </div>
+                         <div class="form-group row">
+                            <label class="col-sm-2">Position</label>
+                            <div class="col-sm-10">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="webdeveloper" id="webdeveloper" value="option1">
+                                    <label class="form-check-label" for="webdeveloper">Web Developer</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="datascientist" id="datascientist" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Data Scientist</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" name="beginner" id="beginner" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">Beginner</label>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="form-group row">
+                             <input type="submit" class="btn btn-primary" id="submit" value="Let's Go">
+                             <input type="reset" class="btn btn-default" id="reset">
+                         </div>
+                      </form>
+                   </div>
+                   <div class="col-md-6">
+                      <h2>Already have an account</h2>
+                      <hr>
+                      <h3>Login</h3>
+                      <hr>
+                      <form action="">
+                          <div class="form-group row">
+                            <label for="username" class="col-md-2 col-form-label">Username</label>
+                            <div class="col-md-8">
+                                <input type="text" class="form-control" id="username" placeholder="Enter username...">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                             <label for="password" class="col-md-2 col-form-label">Password</label>
+                             <div class="col-md-8">
+                                 <input type="password" class="form-control" id="password" placeholder="Enter password...">
+                             </div>
+                          </div>
+                          <div class="form-group">
+                              
+                                <input type="submit" class="btn btn-primary" value="Let me in">
+                                <input type="reset" class="btn btn-default">
+                            
+                          </div>
+                      </form>
+                   </div>
+               </div>
+           </div>
+        <br><br><br>
+        <!-- Footer Starts -->
+        <p style="text-align: center;">Copyright &copy; 2018 Brain4ce Education Solutions Pvt. Ltd. All rights reserved <a
+            href="#" data-toggle="modal" data-target="#modalTerms">Terms and Conditions</a></p>
+       <div class="modal fade" id="modalTerms">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Terms and Conditions</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Edureka Terms and conditions are applied</p>
+                </div>
+            </div>
+        </div>
+    <!-- Footer ends -->
+</body>
+</html>
